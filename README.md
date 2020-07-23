@@ -10,9 +10,9 @@ The API of this mapping library is **completely consistent** with the Spout SDK,
 
 1. Create an .NET Framework Console project.
 
-1. Re-target the build config to `x64`.
+2. Re-target the build config to `x64`.
 
-1. Add the following nuget packages.
+3. Add the following nuget packages.
 
 ```ps1
 Install-Package OpenGL.Net
@@ -21,9 +21,9 @@ Install-Package Ruminoid.Libraries
 
 If you don't want to install the `Ruminoid.Libraries` package, you can maunally copy the [Spout.dll](https://github.com/leadedge/Spout2/blob/2.006/SpoutSDK/Source/VS2012/Binaries/x64/Spout.dll) to the `bin/x64/Debug/Libraries` folder.
 
-1. Turn on `Allow Unsafe Code` in project config.
+4. Turn on `Allow Unsafe Code` in project config.
 
-1. Put the following code into `Program.cs`.
+5. Put the following code into `Program.cs`.
 
 ```cs
 using System;
@@ -77,7 +77,7 @@ namespace SpoutTest
 
 ```
 
-1. Run this program and open the [SpoutReceiver.exe](https://github.com/leadedge/Spout2/blob/master/DEMO/SpoutReceiver.exe). You can now see the 640x360 window changing red, blue, green color.
+6. Run this program and open the [SpoutReceiver.exe](https://github.com/leadedge/Spout2/blob/master/DEMO/SpoutReceiver.exe). You can now see the 640x360 window changing red, blue, green color.
 
 ## LICENSE
 

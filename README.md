@@ -4,11 +4,20 @@
 
 Spout.NET is a C# .NET Implementation for [Spout2](https://github.com/leadedge/Spout2), A video frame sharing system for Windows.
 
+## Installation
+
+You can install Spout.NET from NuGet.
+
+```ps1
+Install-Package OpenGL.Net
+Install-Package Spout.NET
+```
+
 ## Usage
 
 The API of this mapping library is **completely consistent** with the Spout SDK, so you can refer to the [Spout SDK Documentation](https://github.com/leadedge/Spout2/blob/2.006/SpoutSDK/Documentation/SpoutSDK.pdf) for development. You can use Marshal Class to avoid unsafe code.
 
-## A Simple Tutorial
+## Get Started
 
 1. Create an .NET Framework Console project.
 
@@ -18,10 +27,8 @@ The API of this mapping library is **completely consistent** with the Spout SDK,
 
 ```ps1
 Install-Package OpenGL.Net
-Install-Package Ruminoid.Libraries
+Install-Package Spout.NET
 ```
-
-If you don't want to install the `Ruminoid.Libraries` package, you can maunally copy the [Spout.dll](https://github.com/leadedge/Spout2/blob/2.006/SpoutSDK/Source/VS2012/Binaries/x64/Spout.dll) to the `bin/x64/Debug/Libraries` folder.
 
 4. Turn on `Allow Unsafe Code` in project config.
 

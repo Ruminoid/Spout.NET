@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCompany("Il Harper")]
 [assembly: AssemblyProduct("Spout.NET")]
 [assembly: AssemblyCopyright("Copyright © Il Harper 2020")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("Il Harper")]
 [assembly: AssemblyCulture("")]
 
 // 将 ComVisible 设置为 false 会使此程序集中的类型

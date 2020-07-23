@@ -1,7 +1,7 @@
 <div align="center">
 <h1>Spout.NET</h1>
 
-<p>Spout.NET is a C# .NET Implementation for [Spout2](https://github.com/leadedge/Spout2), A video frame sharing system for Windows.</p>
+<p>Spout.NET is a C# .NET Implementation for <a href="https://github.com/leadedge/Spout2" target="_blank">Spout2</a>, A video frame sharing system for Windows.</p>
 
 ![Nuget](https://img.shields.io/nuget/v/Spout.NET?style=flat-square) ![Downloads](https://img.shields.io/nuget/dt/Spout.NET?style=flat-square) ![Platform](https://img.shields.io/badge/platform-Windows-brightgreen?style=flat-square) ![LICENSE](https://img.shields.io/github/license/Ruminoid/Spout.NET?style=flat-square)
 

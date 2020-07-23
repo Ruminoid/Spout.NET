@@ -49,9 +49,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Baseclass.Contrib.Nuget.Output">
-      <Version>2.4.3</Version>
-    </PackageReference>
     <PackageReference Include="CppSharp">
       <Version>0.10.5</Version>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

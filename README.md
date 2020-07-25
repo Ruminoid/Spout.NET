@@ -12,7 +12,6 @@
 You can install Spout.NET from NuGet.
 
 ```ps1
-Install-Package OpenGL.Net
 Install-Package Spout.NET
 ```
 
@@ -29,7 +28,6 @@ The API of this mapping library is **completely consistent** with the Spout SDK,
 3. Add the following nuget packages.
 
 ```ps1
-Install-Package OpenGL.Net
 Install-Package Spout.NET
 ```
 

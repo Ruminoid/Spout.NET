@@ -15,6 +15,8 @@ You can install Spout.NET from NuGet.
 Install-Package Spout.NET
 ```
 
+Please notice that `Spout.NET` requires `NuGet 3.3` or higher (in other words, `PackageReference`). If your project uses `packages.config`, please [migrate your packages to PackageReference](https://docs.microsoft.com/en-us/nuget/consume-packages/migrate-packages-config-to-package-reference).
+
 ## Usage
 
 The API of this mapping library is **completely consistent** with the Spout SDK, so you can refer to the [Spout SDK Documentation](https://github.com/leadedge/Spout2/blob/2.006/SpoutSDK/Documentation/SpoutSDK.pdf) for development. You can use Marshal Class to avoid unsafe code.
